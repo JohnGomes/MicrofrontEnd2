@@ -1,0 +1,20 @@
+{
+  "name": "single-spa-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "single-spa": "^4.3.6",
+    "single-spa-react": "^2.10.2",
+    "single-spa-vue": "^1.5.1",
+    "vue": "^2.6.10"
+  }
+}
