@@ -30,7 +30,13 @@ class Header extends React.Component {
     const { title, links } = this.props;
     const { itemsSelected, item } = this.state;
     return ([
-     
+      <header className="k-header">
+        <div className="k-header__brand">{title}</div>
+        { item && <span className="k-header__last-item">{`Last Item: ${item.title}`}</span> }
+        <span className="k-header__space" />
+        <span>{`Items Clicked: ${itemsSelected}`}</span>
+        <NavBar links={links} />
+      </header>
     ]);
   }
 }
