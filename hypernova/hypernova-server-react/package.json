@@ -19,7 +19,7 @@
     "eslint-plugin-react": "^7.12.4",
     "nodemon-webpack-plugin": "^4.0.7",
     "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "express": "^4.16.4",
